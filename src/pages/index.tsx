@@ -1,11 +1,8 @@
 import Head from 'next/head'
+import Main from '../components/Main'
 import styles from '../styles/Home.module.css'
 
-type Props = {
-  title: string
-}
-
-export default function Home({ title = 'Hello World' }: Props) {
+export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
@@ -14,7 +11,7 @@ export default function Home({ title = 'Hello World' }: Props) {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>{title}</h1>
+        <Main />
       </main>
     </div>
   )
