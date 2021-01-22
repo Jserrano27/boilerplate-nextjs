@@ -4,7 +4,7 @@ const Main = ({
   title = 'Boilerplate',
   description = 'TypeScript, React, NextJS and Styled Components'
 }) => (
-  <S.Wrapper id="__next">
+  <S.Wrapper>
     <S.Logo src="/img/logo.svg" alt="An atom" />
     <S.Title>{title}</S.Title>
     <S.Description>{description}</S.Description>

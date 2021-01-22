@@ -46,7 +46,6 @@ exports[`<Main /> should render correctly 1`] = `
 
 <main
   class="c0"
-  id="__next"
 >
   <img
     alt="An atom"
