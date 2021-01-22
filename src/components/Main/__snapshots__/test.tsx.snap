@@ -1,9 +1,29 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Main /> should render correctly 1`] = `
-<div>
-  <h1>
-    NextJS
+<main
+  class="styles__Wrapper-yrzbme-0 bkstws"
+  id="__next"
+>
+  <img
+    alt="An atom"
+    class="styles__Logo-yrzbme-1 eZTEtn"
+    src="/img/logo.svg"
+  />
+  <h1
+    class="styles__Title-yrzbme-2 vNhmh"
+  >
+    Boilerplate
   </h1>
-</div>
+  <h2
+    class="styles__Description-yrzbme-3 eRVAYi"
+  >
+    TypeScript, React, NextJS and Styled Components
+  </h2>
+  <img
+    alt="A developer in front of a monitor with code in it"
+    class="styles__Illustration-yrzbme-4 cljVzh"
+    src="/img/hero-illustration.svg"
+  />
+</main>
 `
